@@ -1,5 +1,17 @@
 #exclude data from repository
-/src/data/*
+/src/data/**
+!/src/data/raw/
+!/src/data/external/
+!/src/data/interim/
+!/src/data/processed/
+
+/src/data/raw/**
+/src/data/external/**
+/src/data/interim/**
+/src/data/processed/**
+
+
+
 !/src/data/raw/.gitignore
 !/src/data/external/.gitignore
 !/src/data/interim/.gitignore
