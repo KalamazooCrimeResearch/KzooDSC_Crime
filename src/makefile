@@ -17,8 +17,8 @@ IRIS_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.
 .PHONY: all clean
 
 
-all: data/raw/baltimorecity.csv data/raw/cincinnati.csv data/raw/seattle.csv
-	data/raw/baltimorecity.csv data/raw/cincinnati.csv data/raw/seattle.csv
+all: data/raw/cincinnati.csv
+	data/raw/cincinnati.csv
 
 clean:
 	rm -f data/raw/*.csv
