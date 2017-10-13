@@ -4,6 +4,7 @@
 !/src/data/external/
 !/src/data/interim/
 !/src/data/processed/
+!/src/data/download.py
 
 /src/data/raw/**
 /src/data/external/**
